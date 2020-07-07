@@ -1,0 +1,289 @@
+/* SET TO DEFUALT */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/* HEADER */
+header {
+    background-color: darkblue;
+    font-family: verdana;
+    font-size: 1.4rem;
+    height: 80px;
+    color: white;
+}
+/* lOGO */
+header #logo {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+/* NAVIGATION MENUE */
+header ul {
+    float: right;
+    margin-right: 15%;
+}
+header ul li {
+    float: left;
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/* NAVIGATION LINKS */
+header ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+/* HOVER EFFECT */
+header ul li a:hover {
+    color:white;
+    border-bottom:3px solid white;
+}
+/* ===========BODY PART ==================== */
+.photo-container {
+    border: 1px solid green;
+    color: red;
+}
+/* ============PHOTO SECTION=========== */
+.photo {
+    background-image: url('./images/background.jpg');
+    display: table;
+    position: relative;
+    background-size: cover;
+    background-position: fixed;
+}
+.photo {
+    width: 50%;
+    height: 900px;
+    float: left;
+
+}
+/* ============CONTENT SECTION================ */
+ul {
+    margin-left:40px;
+}
+
+/* Contents */
+.contents {
+    width: 49.5%;
+    float: right;
+}
+/* I'm Section */
+.iam {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.iam h3 {
+    color: blue;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.iam p {
+    color: darkblue;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 5px;
+
+}
+.iam button {
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color:darkblue;
+    border: 1px solid darkblue;
+    margin-left: 30px;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+.iam button:hover {
+    background-color: darkblue;
+    color: white;
+    border: 1px solid white;
+}
+/* =================What we can do ================ */
+.what-can-ido  ul li{
+  list-style-type: square;
+}
+.what-can-ido ul li{
+    list-style-type: none;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    color:darkblue;
+    margin-top: 10px;
+    float: left;
+    margin-left: 3px;
+}
+.what-can-ido ul li a {
+    text-decoration: none;
+}
+.what-can-ido ul li:hover {
+    background-color: darkblue;
+    color: white;
+    border: 1px solid white;
+}
+.what-can-ido ul li a:hover{
+    color: white;
+}
+/*============LATEST WORKS SECTION================== */
+.latest-works {
+   clear: both;
+}
+.latest-works ul li {
+    list-style-type: none;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: 240px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    color: white;
+    float: left;
+    margin-left: 3px;
+}
+.latest-works ul li a {
+    text-decoration: none;
+    padding: 10px;
+}
+.latest-works ul li:hover {
+    background-color: darkblue;
+    color: white;
+    border: 1px solid white;
+}
+.latest-works ul li a:hover {
+    color: white;   
+}
+.icons {
+    width: 30px;
+    height: 40px;
+}
+/*===============Contact Me SECTION ============= */
+.contact-me {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: darkblue;
+}
+.contact-me h3 {
+    margin-left: 10px;
+}
+.contact-me h3 {
+    color: blue;
+
+    padding: 5px;
+    box-sizing: border-box;
+}
+.contact-me #textarea {
+    margin-left: 50px;
+}
+.contact-me input {
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: darkblue;
+    color: white;
+    border:1px solid white;
+}
+.contact-me input:hover {
+    background-color: white;
+    color: darkblue;
+    border: 1px solid darkblue;
+}
+.contact-me input[type='submit'] {
+    width: 100px;
+    text-align: center;
+    margin-left: 50px;
+    background-color:white;
+    color: darkblue;
+    border: 1px solid darkblue;
+}
+.contact-me input[type='submit']:hover{
+    background-color: darkblue;
+    color:white;
+    border: 1px solid white;
+
+}
+.contact-me textarea {
+    background-color: darkblue;
+    color: white;
+    border: 1px solid white;
+}
+.contact-me textarea:hover {
+    background-color: white;
+    color: darkblue;
+    border-radius: 1px solid darkblue;
+}
+/* contact --- form */
+.contact-me form input {
+    width: 400px;;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.contact-me form textarea {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    border: 1px solid darkblue;
+}
+/*================ Community Profile SECTION============ */
+.community-profile {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.community-profile h3 {
+    margin-top: 30px; 
+    color: darkblue;
+}
+.community-profile h4 {
+    margin-top: 10px;
+    color: darkblue;
+    padding: 10px;
+}
+.community-profile p {
+    margin-top: 5px;
+}
+/* social Media */
+.social-media ul li {
+    list-style-type: none;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    width: 240px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    color: white;
+    float: left;
+    margin-left: 3px;
+}
+.social-media ul li:hover {
+    background-color: darkblue;
+    color: white;
+}
+.social-media ul li a {
+    text-decoration: none;
+}
+.social-media ul li a:hover {
+    color: white;
+}
+/*=============FOOTER==================*/
+footer {
+    clear: both;
+    width: 100%;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
