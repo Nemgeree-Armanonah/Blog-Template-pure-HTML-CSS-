@@ -9,4 +9,5 @@ FACEBOOK: LOYAL AFGHANS \
 INSTAGRAM: loyal_afghans \
 TELEGRAM: loyal_afghans \
 EMAIL: loyal.afghans111@gmail.com & zoneloyals@gmail.com <br/> 
-PHONE: 093779863074
+PHONE: 093779863074 \
+YouTube: Zone Loyals
